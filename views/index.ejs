@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Node Formation Project 1</title>
+  </head>
+  <body>
+    <h1>MySQL Questions and Answers</h1>
+    <img src="/img/bebop.png" />
+    <p>Hello, welcome <%= name %></p>
+    <p>Main programming language: <%= lang %></p>
+
+    <% if(msg){ %>
+      <h3>This is an error message!</h3>
+    <% } else { %>
+      <h3>No Errors! =)</h3>
+    <% } %>
+
+    <% products.forEach((prod)=>{ %>
+      <hr>
+      <h4><%= prod.name %></h4>
+      <h5><%= prod.price %></h5>
+    <% }) %>
+
+  </body>
+</html>
