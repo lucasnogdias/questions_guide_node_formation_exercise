@@ -9,8 +9,11 @@
   "author": "Lucas Dias",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.20.0",
     "bootstrap": "^4.5.3",
     "ejs": "^3.1.7",
-    "express": "^4.18.1"
+    "express": "^4.18.1",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.19.0"
   }
 }

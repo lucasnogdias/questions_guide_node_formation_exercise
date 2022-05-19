@@ -1,7 +1,7 @@
-body {
-  background-color: lightgray;
+body{
+  background-color: #eceff1;
 }
 
-h1 {
-  color: blue;
+#form-question{
+  margin-top: 5vh;
 }
